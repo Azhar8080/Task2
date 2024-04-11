@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+ 
   }
   body{
     display: flex;
+    font-family: 'Gupter', sans-serif;
   }
-  .card h3{
-    font-weight: bold;
-  }
+  
   .card{
     width: 250px;
     height: 350px;
@@ -59,9 +58,9 @@
 
 /* button no 2 */
 .btn2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Gupter', sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   background: #4D5628;
   border-color: #4D5628;
   width: 200px;
