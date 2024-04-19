@@ -67,7 +67,7 @@
     align-items: center;
   }
   .card:hover{
-    transform: scale(1.15);
+    transform: scale(1.02);
     z-index: 3;
   }
 
@@ -144,12 +144,17 @@
     line-height: 15px !important;
   }
 }
+@media(max-width:798px){
+  .c-2{
+    top:365px;
+  }
+}
 @media(max-width:510px){
   .c-1{
     top:465px;
   }
   .c-2{
-    top: 441px;
+    top: 465px !important;
   }
   .c-3{
     top:465px;
